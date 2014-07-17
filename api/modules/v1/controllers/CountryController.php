@@ -4,15 +4,14 @@ namespace api\modules\v1\controllers;
 
 use yii\rest\ActiveController;
 
-
 /**
- * User Controller API
+ * Country Controller API
  *
  * @author Budi Irawan <deerawan@gmail.com>
  */
-class UserController extends ActiveController
+class CountryController extends ActiveController
 {
-    public $modelClass = 'api\modules\v1\models\User';    
+    public $modelClass = 'api\modules\v1\models\Country';    
 }
 
 

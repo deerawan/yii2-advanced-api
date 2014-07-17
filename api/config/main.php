@@ -8,7 +8,7 @@ $params = array_merge(
 );
 
 return [
-    'id' => 'app-backend',
+    'id' => 'app-api',
     'basePath' => dirname(__DIR__),    
     'bootstrap' => ['log'],
     'modules' => [
@@ -18,13 +18,8 @@ return [
         ]
     ],
     'components' => [        
-        'hasher' => [
-            'class' => 'yii\phpass\Phpass',
-            'hashPortable' => false,
-            'hashCostLog2' => 8
-        ],
         'user' => [
-            'identityClass' => 'api\models\User',
+            'identityClass' => 'common\models\User',
             'enableAutoLogin' => false,
         ],
         'log' => [
@@ -43,13 +38,10 @@ return [
             'rules' => [
                 [
                     'class' => 'yii\rest\UrlRule', 
-                    'controller' => 'v1/user',
-                    'extraPatterns' => [
-                        'POST login' => 'login'
-                    ]
+                    'controller' => 'v1/country'
                 ]
             ],        
-        ],
+        ]
     ],
     'params' => $params,
 ];

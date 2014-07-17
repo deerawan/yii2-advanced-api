@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "16b5d63ca71e0ce1a6b6f8956f914b12",
+    "hash": "cbe067c7c015e1a0e2c1ce17a359a27a",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -115,12 +116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "0ad7a82115989ae6274b583d7d1beec04cb69b51"
+                "reference": "1471619d856da006a4de443355d6339325b3f46e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/0ad7a82115989ae6274b583d7d1beec04cb69b51",
-                "reference": "0ad7a82115989ae6274b583d7d1beec04cb69b51",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/1471619d856da006a4de443355d6339325b3f46e",
+                "reference": "1471619d856da006a4de443355d6339325b3f46e",
                 "shasum": ""
             },
             "require": {
@@ -161,26 +162,29 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2014-06-20 15:48:17"
+            "time": "2014-07-03 13:54:59"
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v3.1.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "a365d8689c3f3cee7f1acf86b61270ecca8e106d"
+                "reference": "2c540b7e330eb2e8ecedfd7d62fb603f96ee39db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/a365d8689c3f3cee7f1acf86b61270ecca8e106d",
-                "reference": "a365d8689c3f3cee7f1acf86b61270ecca8e106d",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/2c540b7e330eb2e8ecedfd7d62fb603f96ee39db",
+                "reference": "2c540b7e330eb2e8ecedfd7d62fb603f96ee39db",
                 "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-master": "3.2.x-dev"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -197,13 +201,19 @@
                     "email": "markdotto@gmail.com"
                 }
             ],
-            "description": "Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.",
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
             "homepage": "http://getbootstrap.com",
             "keywords": [
-                "bootstrap",
-                "css"
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "less",
+                "mobile-first",
+                "responsive",
+                "web"
             ],
-            "time": "2014-02-13 17:24:59"
+            "time": "2014-07-13 07:08:25"
         },
         {
             "name": "yiisoft/jquery",
@@ -260,12 +270,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "fe06b74e3dbe134bff93a8d261ad7c5558f9cb66"
+                "reference": "65b914f41b42400bae2bef999c184cd8cc3565e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/fe06b74e3dbe134bff93a8d261ad7c5558f9cb66",
-                "reference": "fe06b74e3dbe134bff93a8d261ad7c5558f9cb66",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/65b914f41b42400bae2bef999c184cd8cc3565e7",
+                "reference": "65b914f41b42400bae2bef999c184cd8cc3565e7",
                 "shasum": ""
             },
             "require": {
@@ -333,7 +343,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2014-06-27 18:26:26"
+            "time": "2014-07-12 17:14:48"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -341,16 +351,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "4c84a919caaf6cfe8aff5c13f6d174eee2f36f21"
+                "reference": "5517eeac747ad628a79ed8b16f05ec1966ef1c12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/4c84a919caaf6cfe8aff5c13f6d174eee2f36f21",
-                "reference": "4c84a919caaf6cfe8aff5c13f6d174eee2f36f21",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/5517eeac747ad628a79ed8b16f05ec1966ef1c12",
+                "reference": "5517eeac747ad628a79ed8b16f05ec1966ef1c12",
                 "shasum": ""
             },
             "require": {
-                "twbs/bootstrap": "3.1.* | 3.0.*",
+                "twbs/bootstrap": "3.2.* | 3.1.* | 3.0.*",
                 "yiisoft/yii2": "*"
             },
             "type": "yii2-extension",
@@ -376,7 +386,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2014-06-23 22:43:42"
+            "time": "2014-06-30 11:04:22"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -384,12 +394,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-composer.git",
-                "reference": "22f31f51ef33096bc846a9a19b4ba17a7cd6346e"
+                "reference": "47dbc7c4a323086ba96dc4a9c3ff85c9f08d2615"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/22f31f51ef33096bc846a9a19b4ba17a7cd6346e",
-                "reference": "22f31f51ef33096bc846a9a19b4ba17a7cd6346e",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/47dbc7c4a323086ba96dc4a9c3ff85c9f08d2615",
+                "reference": "47dbc7c4a323086ba96dc4a9c3ff85c9f08d2615",
                 "shasum": ""
             },
             "require": {
@@ -422,7 +432,7 @@
                 "extension installer",
                 "yii2"
             ],
-            "time": "2014-05-23 14:58:21"
+            "time": "2014-07-03 12:33:09"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
@@ -596,12 +606,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "a92ac554441f95de213cada838b51506c3853117"
+                "reference": "b42d638192bb9b4b7d7e73e747dfcda9db4d9985"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/a92ac554441f95de213cada838b51506c3853117",
-                "reference": "a92ac554441f95de213cada838b51506c3853117",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/b42d638192bb9b4b7d7e73e747dfcda9db4d9985",
+                "reference": "b42d638192bb9b4b7d7e73e747dfcda9db4d9985",
                 "shasum": ""
             },
             "require": {
@@ -633,7 +643,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2014-06-27 16:38:03"
+            "time": "2014-07-09 23:54:30"
         }
     ],
     "aliases": [
