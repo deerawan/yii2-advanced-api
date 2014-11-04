@@ -19,6 +19,17 @@ class Country extends ActiveRecord
 		return 'country';
 	}
 
+    /**
+     * @inheritdoc
+     */
+    public static function primaryKey()
+    {
+        return ['code'];
+    }
+
+    /**
+     * Define rules for validation
+     */
     public function rules()
     {
         return [
