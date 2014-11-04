@@ -1,9 +1,6 @@
 <?php
-
 namespace api\modules\v1\models;
-
 use \yii\db\ActiveRecord;
-
 /**
  * Country Model
  *
@@ -35,5 +32,5 @@ class Country extends ActiveRecord
         return [
             [['code', 'name', 'population'], 'required']
         ];
-    }	
+    }   
 }
