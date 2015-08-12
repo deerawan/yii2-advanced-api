@@ -15,6 +15,11 @@ class Country extends ActiveRecord
     {
         return 'country';
     }
+
+    public static function primaryKey()
+    {
+        return ['code'];
+    }
     
     public function rules()
     {
