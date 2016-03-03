@@ -9,7 +9,7 @@ class m150812_015333_create_country_table extends Migration
     {
         $this->createTable('country', [
             'code' => Schema::TYPE_STRING . ' NOT NULL',
-            'country' => Schema::TYPE_STRING . ' NOT NULL',
+            'name' => Schema::TYPE_STRING . ' NOT NULL',
             'population' => Schema::TYPE_INTEGER . ' NOT NULL',
         ]);
 
